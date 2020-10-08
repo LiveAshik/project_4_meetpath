@@ -1,0 +1,80 @@
+@media only screen and (max-width: 550px){
+    .hero-text h2{
+        margin: 40px 0 20px;
+    }
+    .hero-text p{
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    .feature img{
+        display: none;
+    }
+    .feature div{
+        float: none;
+        text-align: center;
+        margin: 40px 0;
+    }
+    .lw-right img{
+        display: none;
+    }
+    .lw-left {
+        width: 100%;
+        float: none;
+        margin-left: 10%;
+        padding-right: 15%;
+    }
+    .btn-hello{
+        margin-bottom: 30px;
+    }
+    .getup {
+        background-image: none;
+
+    }
+    .getup-content {
+        width: 100%;
+        float: right;
+        padding-top: 80px;
+    }
+    .btn-view{ 
+        margin-bottom: 50px;
+    }
+    .contact {
+        padding: 80px 0;
+    }
+    form label{
+        display: inline-block;
+        padding: 10px;
+    }
+    footer p{
+        font-size: 14px;
+        padding: 50px 0 10px;
+    }
+    .btn-up {
+        padding: 45px 0;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "ProximaNova", "arial", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*main header*/
+.main-header {
+    width: 100%;
+    background-image: url(img/head-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logo-section {
+    width: 100%;
+}
+.logo-section span{
+    display: inline-block;
+    padding: 15px 40px;
+    font-family: "Blackjack", "arial", sans-serif;
+    font-weight: 600;
+    color: #0da9e5;
+    background-color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #0da9e5;
+    box-shadow: 10px 7px 0px #0da9e5;
+}
+.logo-section i{
+    display: inline-block;
+    float: right;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero-text {
+    width: 100%;
+    text-align: right;
+}
+.hero-text h2{
+    font-family: "Blackjack", "arial", sans-serif;
+    font-size: 70px;
+    color: #fff;
+    margin: 20px 0;
+}
+.hero-text p{
+    font-size: 35px;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: lighter;
+    
+}
+.hero-text p span{
+    font-weight: 700;
+}
+.feature {
+    width: 100%;
+    overflow: hidden;
+}
+.feature img{
+    margin-bottom: -18%;
+    margin-left: 100px;
+}
+.feature div{
+    float: right;
+    margin-top: 40px;
+}
+.btn{
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: .3s ease;
+    display: inline-block;
+}
+.fas{
+    margin-left: 5px;
+}
+.btn-primary{
+    border: 2px solid #fff;
+    color: #fff; 
+}
+.btn-primary:hover{
+    color: #0da9e5;
+}
+
+
+
+/*A longwinded header*/
+
+.logwin {
+    width: 100%;
+    padding-top: 150px;
+    background-color: #f4f4f4;
+}
+
+.lw-left {
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+    padding-right: 15%;
+}
+.globe-h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #545454;
+    margin-bottom: 30px;
+    
+}
+.globe-p{
+    font-size: 17px;
+    color: #7e7e7e;
+    line-height: 1.3;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.lw-left .special-p{
+    border-left: 5px solid #0da9e5;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.btn-hello{
+    border: 2px solid #14af8f;
+    color: #14af8f; 
+}
+.btn-hello:hover{
+    border: 2px solid #0da9e5;
+    color: #0da9e5;
+}
+
+.lw-right {
+    width: 30%;
+    overflow: hidden;
+    text-align: right;
+}
+.lw-right img{
+    margin-bottom: -20%;
+}
+
+
+/*Get a Dog Up Ya'*/
+.getup {
+    width: 100%;
+    background-image: url(img/all-devices.png);
+    background-repeat: no-repeat;
+    background-size: 63%;
+    background-position: left 160%;
+    
+}
+.getup:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.getup-content {
+    width: 40%;
+    float: right;
+    padding-top: 150px;
+}
+.getup-content h4{
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.btn-view{
+    border: 2px solid #ea4c89;
+    color: #ea4c89; 
+    margin-bottom: 250px;
+}
+.btn-view:hover{
+    border: 2px solid #0da9e5;
+    color: #0da9e5;
+}
+
+
+
+/*Like What You see*/
+.likewhat {
+    width: 100%;
+    background-image: url(img/background_2.jpg);
+    text-align: center;
+}
+.likewhat h2{
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    padding: 100px 0 40px;
+}
+
+.buy-span{
+    padding-bottom: 100px;    
+}
+.buy-span span{
+    font-weight: 600;
+}
+
+
+
+
+
+/*Contact section*/
+.contact {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.social a i{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    padding: 13px;
+    color: #545454;
+    border-radius: 50%;
+    border: 2px solid #545454;
+	transition: .3s ease;
+}
+.social a {
+    display: inline-block;
+    padding: 15px 15px 50px;
+}
+.social a i:hover{
+	border: 2px solid #0da9e5;
+    color: #0da9e5;
+}
+form label{
+    color: #545454;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+input[type="email"]{
+    width: 250px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+input i{
+    position: absolute;
+    left: 0;
+}
+
+
+
+
+/*footer*/
+footer{
+    width: 100%;
+    text-align: center;
+}
+footer p{
+    display: inline-block;
+    padding: 50px 0;
+}
+.btn-up {
+    display: inline-block;
+    float: right;
+    padding: 50px 0;
+        
+}
+.btn-up a{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #000;
+    
+}
